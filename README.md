@@ -1,10 +1,35 @@
-- 👋 Hi, I’m @willbaldlygo
-- 👀 I’m interested in creating tools that fill in for my wonky executive functioning system
-- 🌱 I’m currently learning Python, Machine learning, AI tools
-- 💞️ I’m looking to collaborate on AI tools for streamlining creative workflows
-- 📫 How to reach me will@baldlygo.info
+# willbaldlygo RAG App
 
-<!---
-willbaldlygo/willbaldlygo is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+This repository contains a simple two-page Retrieval-Augmented Generation (RAG) app built with [Streamlit](https://streamlit.io/).
+
+## Features
+
+- **Two pages**
+  - **AIWP Bot**: upload PDFs or scrape websites, manage source library, and chat using text or voice input.
+  - **The Agents**: configure up to four agents by assigning roles and prompts that steer answers.
+- Uploaded files and scraped text are embedded and stored in a Supabase vector database.
+- Chatbot responses are generated using OpenAI's `gpt-4o-mini` model via API or compatible OSS models on Hugging Face.
+- Voice input powered by `streamlit-mic-recorder`.
+
+## Running
+
+1. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+2. Set environment variables for Supabase and OpenAI:
+   ```bash
+   export SUPABASE_URL="https://<your-project>.supabase.co"
+   export SUPABASE_KEY="<service_role_key>"
+   export OPENAI_API_KEY="<openai_or_oss_key>"
+   ```
+3. Start the Streamlit app:
+   ```bash
+   streamlit run app.py
+   ```
+
+## Notes
+
+- If no agent roles or prompts are configured, the chatbot provides a brief answer without citing sources.
+- Multiple users can access the app through Streamlit sharing platforms such as Streamlit Community Cloud, Replit, or Vercel.
+

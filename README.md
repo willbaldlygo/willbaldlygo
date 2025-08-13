@@ -4,6 +4,23 @@
 - 💞️ I’m looking to collaborate on AI tools for streamlining creative workflows
 - 📫 How to reach me will@baldlygo.info
 
+## R-Type Style Shooter
+
+A small 2D, side scrolling, space themed game with bright 16-bit style colours.
+
+### Running the game
+
+1. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+2. Run the game:
+   ```bash
+   python main.py
+   ```
+
+Use the arrow keys to fly up or down and press space to fire lasers.
+
 <!---
 willbaldlygo/willbaldlygo is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.

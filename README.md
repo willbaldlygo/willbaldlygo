@@ -1,7 +1,5 @@
 - 👋 Hi, I’m @willbaldlygo
-- 👀 I’m interested in creating tools that fill in for my wonky executive functioning system
-- 🌱 I’m currently learning Python, Machine learning, AI tools
-- 💞️ I’m looking to collaborate on AI tools for streamlining creative workflows
+- 👀 I’m interested in creating tools that help me teach AI Skills to my AI Bootcamp learners, and that fill in for my wonky executive functioning system
 - 📫 How to reach me will@baldlygo.info
 
 <!---
